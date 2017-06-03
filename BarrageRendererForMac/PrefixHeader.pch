@@ -1,0 +1,31 @@
+//
+//  PrefixHeader.pch
+//  BarrageRendererForMac
+//
+//  Created by 郑先生 on 16/1/22.
+//  Copyright © 2016年 郑先生. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifndef UIImage
+#define UIImage NSImage
+#endif
+#ifndef UIImageView
+#define UIImageView NSImageView
+#endif
+#ifndef UIColor
+#define UIColor NSColor
+#endif
+#ifndef UIView
+#define UIView NSView
+#endif
+
+#import "NSLabel.h"
+#import "XUIViewAdditions.h"
+
+#endif /* PrefixHeader_pch */
